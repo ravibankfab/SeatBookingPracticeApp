@@ -85,6 +85,13 @@ final class SeatListViewModelTests: XCTestCase {
         }
         XCTAssertEqual(total, 30)
     }
+
+    func testMarkSeatAsBooked() {
+        let indexPath = IndexPath(item: 0, section: 0)
+        XCTAssertEqual(sut.seat(at: indexPath).status, .available)
+        sut.markSeatAsBooked(seatID: "A1")
+        XCTAssertEqual(sut.seat(at: indexPath).status, .booked)
+    }
 }
 
 final class SeatDetailViewModelTests: XCTestCase {

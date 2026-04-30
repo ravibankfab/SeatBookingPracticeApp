@@ -35,6 +35,12 @@ final class SeatListViewModel {
         }
     }
 
+    func markSeatAsBooked(seatID: String) {
+        if let index = seats.firstIndex(where: { $0.id == seatID }) {
+            seats[index].status = .booked
+        }
+    }
+
     private static func generateSeats() -> [Seat] {
         let rows = ["A", "B", "C", "D", "E"]
         let seatsPerRow = 6

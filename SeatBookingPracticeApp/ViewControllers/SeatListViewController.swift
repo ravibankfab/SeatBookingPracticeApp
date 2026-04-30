@@ -27,6 +27,10 @@ final class SeatListViewController: UIViewController {
         setupCollectionView()
     }
 
+    func reloadSeats() {
+        collectionView.reloadData()
+    }
+
     private func setupLegend() {
         let legendStack = UIStackView()
         legendStack.axis = .horizontal
@@ -106,7 +110,7 @@ extension SeatListViewController: UICollectionViewDataSource {
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: SeatCell.reuseIdentifier, for: indexPath) as? SeatCell else {
-            return UICollectionViewCell()
+            fatalError("Unable to dequeue SeatCell – check cell registration in setupCollectionView()")
         }
         let seat = viewModel.seat(at: indexPath)
         cell.configure(with: seat)
