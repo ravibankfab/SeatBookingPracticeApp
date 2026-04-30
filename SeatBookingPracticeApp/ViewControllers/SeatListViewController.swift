@@ -105,7 +105,9 @@ extension SeatListViewController: UICollectionViewDataSource {
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: SeatCell.reuseIdentifier, for: indexPath) as! SeatCell
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: SeatCell.reuseIdentifier, for: indexPath) as? SeatCell else {
+            return UICollectionViewCell()
+        }
         let seat = viewModel.seat(at: indexPath)
         cell.configure(with: seat)
         return cell

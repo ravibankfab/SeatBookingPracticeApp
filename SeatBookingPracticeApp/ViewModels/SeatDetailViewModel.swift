@@ -1,8 +1,10 @@
 import Foundation
 
 final class SeatDetailViewModel {
-    private(set) var seat: Seat
+    private var seat: Seat
     weak var coordinator: SeatBookingCoordinator?
+
+    var currentStatus: SeatStatus { seat.status }
 
     init(seat: Seat, coordinator: SeatBookingCoordinator) {
         self.seat = seat

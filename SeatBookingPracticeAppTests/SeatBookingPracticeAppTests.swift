@@ -139,7 +139,7 @@ final class SeatDetailViewModelTests: XCTestCase {
 
     func testBookSeat_changesStatusToBooked() {
         sut.bookSeat()
-        XCTAssertEqual(sut.seat.status, .booked)
+        XCTAssertEqual(sut.currentStatus, .booked)
     }
 }
 
