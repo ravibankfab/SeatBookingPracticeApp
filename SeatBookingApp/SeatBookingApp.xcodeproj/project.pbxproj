@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		GG00000000000000000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00000000000000000001 /* AppDelegate.swift */; };
+		GG00000000000000000002 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00000000000000000002 /* SceneDelegate.swift */; };
+		GG00000000000000000003 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00000000000000000003 /* Coordinator.swift */; };
+		GG00000000000000000004 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00000000000000000004 /* AppCoordinator.swift */; };
+		GG00000000000000000005 /* SeatListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00000000000000000005 /* SeatListCoordinator.swift */; };
+		GG00000000000000000006 /* SeatDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00000000000000000006 /* SeatDetailCoordinator.swift */; };
+		GG00000000000000000007 /* Seat.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00000000000000000007 /* Seat.swift */; };
+		GG00000000000000000008 /* SeatBookingServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00000000000000000008 /* SeatBookingServiceProtocol.swift */; };
+		GG00000000000000000009 /* SeatBookingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00000000000000000009 /* SeatBookingService.swift */; };
+		GG0000000000000000000A /* SeatListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0000000000000000000A /* SeatListViewModel.swift */; };
+		GG0000000000000000000B /* SeatDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0000000000000000000B /* SeatDetailViewModel.swift */; };
+		GG0000000000000000000C /* SeatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0000000000000000000C /* SeatListViewController.swift */; };
+		GG0000000000000000000D /* SeatDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0000000000000000000D /* SeatDetailViewController.swift */; };
+		GG0000000000000000000E /* SeatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0000000000000000000E /* SeatCell.swift */; };
+		GG0000000000000000000F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0000000000000000000F /* LaunchScreen.storyboard */; };
+		GG00000000000000000010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE00000000000000000010 /* Assets.xcassets */; };
+		GG00000000000000000011 /* SeatBookingServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00000000000000000011 /* SeatBookingServiceTests.swift */; };
+		GG00000000000000000012 /* SeatListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00000000000000000012 /* SeatListViewModelTests.swift */; };
+		GG00000000000000000013 /* SeatDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00000000000000000013 /* SeatDetailViewModelTests.swift */; };
+		GG00000000000000000014 /* CoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00000000000000000014 /* CoordinatorTests.swift */; };
+		GG00000000000000000015 /* SeatBookingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00000000000000000015 /* SeatBookingUITests.swift */; };
+		GG00000000000000000016 /* SeatBookingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00000000000000000016 /* SeatBookingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		HH00000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA00000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC00000000000000000001;
+			remoteInfo = SeatBookingApp;
+		};
+		HH00000000000000000002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA00000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC00000000000000000001;
+			remoteInfo = SeatBookingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE00000000000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE00000000000000000002 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE00000000000000000003 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		EE00000000000000000004 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		EE00000000000000000005 /* SeatListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatListCoordinator.swift; sourceTree = "<group>"; };
+		EE00000000000000000006 /* SeatDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatDetailCoordinator.swift; sourceTree = "<group>"; };
+		EE00000000000000000007 /* Seat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seat.swift; sourceTree = "<group>"; };
+		EE00000000000000000008 /* SeatBookingServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatBookingServiceProtocol.swift; sourceTree = "<group>"; };
+		EE00000000000000000009 /* SeatBookingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatBookingService.swift; sourceTree = "<group>"; };
+		EE0000000000000000000A /* SeatListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatListViewModel.swift; sourceTree = "<group>"; };
+		EE0000000000000000000B /* SeatDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatDetailViewModel.swift; sourceTree = "<group>"; };
+		EE0000000000000000000C /* SeatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatListViewController.swift; sourceTree = "<group>"; };
+		EE0000000000000000000D /* SeatDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatDetailViewController.swift; sourceTree = "<group>"; };
+		EE0000000000000000000E /* SeatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatCell.swift; sourceTree = "<group>"; };
+		EE0000000000000000000F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE00000000000000000010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE00000000000000000011 /* SeatBookingServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatBookingServiceTests.swift; sourceTree = "<group>"; };
+		EE00000000000000000012 /* SeatListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatListViewModelTests.swift; sourceTree = "<group>"; };
+		EE00000000000000000013 /* SeatDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatDetailViewModelTests.swift; sourceTree = "<group>"; };
+		EE00000000000000000014 /* CoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorTests.swift; sourceTree = "<group>"; };
+		EE00000000000000000015 /* SeatBookingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatBookingUITests.swift; sourceTree = "<group>"; };
+		EE00000000000000000016 /* SeatBookingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatBookingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE00000000000000000017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF00000000000000000001 /* SeatBookingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeatBookingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF00000000000000000002 /* SeatBookingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeatBookingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF00000000000000000003 /* SeatBookingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeatBookingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD00000000000000000003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD00000000000000000005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD00000000000000000007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB00000000000000000001 /* MainGroup */ = {
+			isa = PBXGroup;
+			children = (
+				BB00000000000000000003 /* SeatBookingApp */,
+				BB0000000000000000000C /* SeatBookingAppTests */,
+				BB0000000000000000000D /* SeatBookingAppUITests */,
+				BB00000000000000000002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB00000000000000000002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF00000000000000000001 /* SeatBookingApp.app */,
+				FF00000000000000000002 /* SeatBookingAppTests.xctest */,
+				FF00000000000000000003 /* SeatBookingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB00000000000000000003 /* SeatBookingApp */ = {
+			isa = PBXGroup;
+			children = (
+				BB00000000000000000004 /* Application */,
+				BB00000000000000000005 /* Coordinators */,
+				BB00000000000000000006 /* Models */,
+				BB00000000000000000007 /* Services */,
+				BB00000000000000000008 /* ViewModels */,
+				BB00000000000000000009 /* ViewControllers */,
+				BB0000000000000000000A /* Views */,
+				BB0000000000000000000B /* Resources */,
+			);
+			path = SeatBookingApp;
+			sourceTree = "<group>";
+		};
+		BB00000000000000000004 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EE00000000000000000001 /* AppDelegate.swift */,
+				EE00000000000000000002 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		BB00000000000000000005 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				EE00000000000000000003 /* Coordinator.swift */,
+				EE00000000000000000004 /* AppCoordinator.swift */,
+				EE00000000000000000005 /* SeatListCoordinator.swift */,
+				EE00000000000000000006 /* SeatDetailCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		BB00000000000000000006 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EE00000000000000000007 /* Seat.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BB00000000000000000007 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EE00000000000000000008 /* SeatBookingServiceProtocol.swift */,
+				EE00000000000000000009 /* SeatBookingService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BB00000000000000000008 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EE0000000000000000000A /* SeatListViewModel.swift */,
+				EE0000000000000000000B /* SeatDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BB00000000000000000009 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE0000000000000000000C /* SeatListViewController.swift */,
+				EE0000000000000000000D /* SeatDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BB0000000000000000000A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE0000000000000000000E /* SeatCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB0000000000000000000B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE0000000000000000000F /* LaunchScreen.storyboard */,
+				EE00000000000000000010 /* Assets.xcassets */,
+				EE00000000000000000017 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BB0000000000000000000C /* SeatBookingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE00000000000000000011 /* SeatBookingServiceTests.swift */,
+				EE00000000000000000012 /* SeatListViewModelTests.swift */,
+				EE00000000000000000013 /* SeatDetailViewModelTests.swift */,
+				EE00000000000000000014 /* CoordinatorTests.swift */,
+			);
+			path = SeatBookingAppTests;
+			sourceTree = "<group>";
+		};
+		BB0000000000000000000D /* SeatBookingAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE00000000000000000015 /* SeatBookingUITests.swift */,
+				EE00000000000000000016 /* SeatBookingUITestsLaunchTests.swift */,
+			);
+			path = SeatBookingAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC00000000000000000001 /* SeatBookingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA00000000000000000003 /* Build configuration list for PBXNativeTarget "SeatBookingApp" */;
+			buildPhases = (
+				DD00000000000000000001 /* Sources */,
+				DD00000000000000000002 /* Resources */,
+				DD00000000000000000003 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeatBookingApp;
+			productName = SeatBookingApp;
+			productReference = FF00000000000000000001 /* SeatBookingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC00000000000000000002 /* SeatBookingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA00000000000000000004 /* Build configuration list for PBXNativeTarget "SeatBookingAppTests" */;
+			buildPhases = (
+				DD00000000000000000004 /* Sources */,
+				DD00000000000000000005 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				HH00000000000000000003 /* PBXTargetDependency */,
+			);
+			name = SeatBookingAppTests;
+			productName = SeatBookingAppTests;
+			productReference = FF00000000000000000002 /* SeatBookingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC00000000000000000003 /* SeatBookingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA00000000000000000005 /* Build configuration list for PBXNativeTarget "SeatBookingAppUITests" */;
+			buildPhases = (
+				DD00000000000000000006 /* Sources */,
+				DD00000000000000000007 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				HH00000000000000000004 /* PBXTargetDependency */,
+			);
+			name = SeatBookingAppUITests;
+			productName = SeatBookingAppUITests;
+			productReference = FF00000000000000000003 /* SeatBookingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA00000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CC00000000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					CC00000000000000000002 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CC00000000000000000001;
+					};
+					CC00000000000000000003 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CC00000000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = AA00000000000000000002 /* Build configuration list for PBXProject "SeatBookingApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB00000000000000000001;
+			productRefGroup = BB00000000000000000002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC00000000000000000001 /* SeatBookingApp */,
+				CC00000000000000000002 /* SeatBookingAppTests */,
+				CC00000000000000000003 /* SeatBookingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD00000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				GG0000000000000000000F /* LaunchScreen.storyboard in Resources */,
+				GG00000000000000000010 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD00000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				GG00000000000000000001 /* AppDelegate.swift in Sources */,
+				GG00000000000000000002 /* SceneDelegate.swift in Sources */,
+				GG00000000000000000003 /* Coordinator.swift in Sources */,
+				GG00000000000000000004 /* AppCoordinator.swift in Sources */,
+				GG00000000000000000005 /* SeatListCoordinator.swift in Sources */,
+				GG00000000000000000006 /* SeatDetailCoordinator.swift in Sources */,
+				GG00000000000000000007 /* Seat.swift in Sources */,
+				GG00000000000000000008 /* SeatBookingServiceProtocol.swift in Sources */,
+				GG00000000000000000009 /* SeatBookingService.swift in Sources */,
+				GG0000000000000000000A /* SeatListViewModel.swift in Sources */,
+				GG0000000000000000000B /* SeatDetailViewModel.swift in Sources */,
+				GG0000000000000000000C /* SeatListViewController.swift in Sources */,
+				GG0000000000000000000D /* SeatDetailViewController.swift in Sources */,
+				GG0000000000000000000E /* SeatCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD00000000000000000004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				GG00000000000000000011 /* SeatBookingServiceTests.swift in Sources */,
+				GG00000000000000000012 /* SeatListViewModelTests.swift in Sources */,
+				GG00000000000000000013 /* SeatDetailViewModelTests.swift in Sources */,
+				GG00000000000000000014 /* CoordinatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD00000000000000000006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				GG00000000000000000015 /* SeatBookingUITests.swift in Sources */,
+				GG00000000000000000016 /* SeatBookingUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		HH00000000000000000003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC00000000000000000001 /* SeatBookingApp */;
+			targetProxy = HH00000000000000000001 /* PBXContainerItemProxy */;
+		};
+		HH00000000000000000004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC00000000000000000001 /* SeatBookingApp */;
+			targetProxy = HH00000000000000000002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA00000000000000000006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA00000000000000000007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA00000000000000000008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SeatBookingApp/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.SeatBookingApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA00000000000000000009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SeatBookingApp/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.SeatBookingApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA0000000000000000000A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.SeatBookingAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeatBookingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SeatBookingApp";
+			};
+			name = Debug;
+		};
+		AA0000000000000000000B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.SeatBookingAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeatBookingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SeatBookingApp";
+			};
+			name = Release;
+		};
+		AA0000000000000000000C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.SeatBookingAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeatBookingApp;
+			};
+			name = Debug;
+		};
+		AA0000000000000000000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.SeatBookingAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeatBookingApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA00000000000000000002 /* Build configuration list for PBXProject "SeatBookingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA00000000000000000006 /* Debug */,
+				AA00000000000000000007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA00000000000000000003 /* Build configuration list for PBXNativeTarget "SeatBookingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA00000000000000000008 /* Debug */,
+				AA00000000000000000009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA00000000000000000004 /* Build configuration list for PBXNativeTarget "SeatBookingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000A /* Debug */,
+				AA0000000000000000000B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA00000000000000000005 /* Build configuration list for PBXNativeTarget "SeatBookingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000C /* Debug */,
+				AA0000000000000000000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = AA00000000000000000001 /* Project object */;
+}
