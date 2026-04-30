@@ -14,8 +14,8 @@ final class SeatListViewModel {
     }
 
     var uniqueRows: [String] {
-        let rows = seats.map { $0.row }
-        return Array(NSOrderedSet(array: rows)) as! [String]
+        var seen = Set<String>()
+        return seats.map { $0.row }.filter { seen.insert($0).inserted }
     }
 
     func numberOfSeats(inRow row: String) -> Int {

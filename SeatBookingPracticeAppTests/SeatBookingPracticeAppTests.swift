@@ -67,7 +67,7 @@ final class SeatListViewModelTests: XCTestCase {
         XCTAssertEqual(seat.number, 1)
     }
 
-    func testBootedSeatsExist() {
+    func testBookedSeatsExist() {
         let allSeats = (0..<sut.numberOfSections).flatMap { section -> [Seat] in
             let row = sut.uniqueRows[section]
             return (0..<sut.numberOfSeats(inRow: row)).map { item in
